@@ -57,8 +57,8 @@ class MainContent extends StatelessWidget {
                       children: [
                         CircleAvatar(
                           radius: 14,
-                          backgroundColor: Colors.grey[300],
-                          child: const Icon(Icons.person, color: Colors.white, size: 16),
+                          backgroundImage: const AssetImage('images/avatar.png'),
+                          child: null,
                         ),
                         const SizedBox(width: 8),
                         const Text('Maxbert', style: TextStyle(fontSize: 14)),
